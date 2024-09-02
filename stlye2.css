@@ -1,0 +1,323 @@
+
+/* Basic Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* makes width and height properties include padding and border */
+}
+
+/* Reset styles */
+body {
+    max-width: 1280px; /* Limit the width on large screens */
+    margin: 0 auto; /* Center the page */
+	padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Light background for the body */
+}
+
+/* Header Styling */
+header {
+    width: 200%;
+    height: 800px; /* Header height */
+    background-image: url("718eca894489242d30406077e931114a.jpg"); /* Header image */
+    background-size: cover;
+    background-position: center;
+	background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav form {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav form input[type="text"] {
+    padding: 5px;
+    border: none;
+  }
+  
+  nav form button {
+    background-color: #fff;
+    color: #333;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Main styles */
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .login-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .login-form h3 {
+    text-align: center;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input[type="email"],
+  .login-form input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .login-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-form p {
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 5px;
+  }
+  
+  .social-icons i {
+    font-size: 20px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  body {
+	max-width: 1280px; / adjust laptop screen with /
+	margin: 0 auto; / center the page
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+/* Navigation Styling */
+nav {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: #fff;
+    display: flex;
+    justify-content: space-around; /* Right nav items */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+	justify-content: space-between;
+}
+
+nav ul li {
+    margin: 0 10px; /* Margin between nav items */
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+}
+
+/* Main Content Styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    background-color: #fff; /* White background for sections */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 100%; /* Make sections full width */
+    max-width: 800px; /* Limit section width */
+}
+
+/* Headings */
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Portfolio Container */
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Space items evenly */
+}
+
+.project {
+    margin: 10px;
+    width: calc(30% - 20px); /* 3 items per row */
+    background-color: #f7f7f7;
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Prevents overflow of child elements */
+}
+
+.project img {
+    width: 100%;
+    height: 20px;
+    object-fit: cover;
+    border-bottom: 2px solid #ffcc00; /* Bottom border to separate title */
+}
+
+.project h2 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.project p {
+    margin: 10px;
+}
+
+/* Button Styling */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #555; /* Darker shade on hover */
+}
+
+/* Testimonials */
+.testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.testimonials {
+    margin: 10px;
+    width: calc(30% - 20px); /* 3 items per row */
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.testimonials img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular image */
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+	font-size: 0.9em;
+}
+
+footer .social-media {
+    margin-bottom: 20px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .project,
+    .testimonials {
+        width: calc(45% - 20px); /* 2 items per row on small screens */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack nav items vertically */
+    }
+
+    nav li {
+        margin: 10px 0; /* Margin between stacked items */
+    }
+}
+
+@media (max-width: 480px) {
+    .project,
+    .testimonials {
+        width: 100%; /* Full width on extra small screens */
+    }
+
+    h1 {
+        font-size: 28px; /* Smaller heading on small screens */
+    }
+
+    h2 {
+        font-size: 20px; /* Smaller subheading */
+    }
+}
